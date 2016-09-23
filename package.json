@@ -1,0 +1,48 @@
+{
+  "name": "alfred-font-awesome",
+  "version": "0.0.0",
+  "description": "Alfred workflow to search for font-awesome icons",
+  "license": "MIT",
+  "repository": "SamVerschueren/alfred-font-awesome",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfred-link"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "icons"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "fontawesome",
+    "font",
+    "awesome",
+    "fa",
+    "icon",
+    "iconfont"
+  ],
+  "dependencies": {
+    "alfred-link": "^0.1.0",
+    "alfred-notifier": "^0.1.0",
+    "alfy": "^0.3.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
