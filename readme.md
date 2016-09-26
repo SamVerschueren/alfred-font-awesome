@@ -2,7 +2,7 @@
 
 > Alfred workflow to search for [font-awesome](http://fontawesome.io/) icons
 
-<img src="screenshot.png" width="694">
+<img src="screenshot.png">
 
 
 ## Install
