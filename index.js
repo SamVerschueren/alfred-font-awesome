@@ -1,10 +1,15 @@
 'use strict';
 const alfy = require('alfy');
 const alfredNotifier = require('alfred-notifier');
+const Color = require('color');
 
 alfredNotifier();
 
 const url = 'http://m19dxw5x0q-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%203.13.1&x-algolia-application-id=M19DXW5X0Q&x-algolia-api-key=c79b2e61519372a99fa5890db070064c';
+
+// Determine the iconset depending on the background color
+const background = new Color(alfy.alfred.themeBackground);
+const iconset = background.light() ? 'black' : 'white';
 
 alfy
 	.fetch(url, {
@@ -24,7 +29,7 @@ alfy
 				subtitle: `${x.css_class}`,
 				arg: x.css_class,
 				icon: {
-					path: `./icons/${x.name}.png`
+					path: `./icons/${iconset}/${x.name}.png`
 				},
 				mods: {
 					alt: {
