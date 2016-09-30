@@ -24,7 +24,7 @@ Hold <kbd>Alt</kbd> when pressing <kbd>Enter</kbd> to copy its unicode value.
 
 ## Related
 
-- [alfred-ng2](https://raw.githubusercontent.com/SamVerschueren/alfred-ng2) - Search for Angular 2 API references
+- [alfred-ng2](https://github.com/SamVerschueren/alfred-ng2) - Search for Angular 2 API references
 - [alfred-npms](https://github.com/sindresorhus/alfred-npms) - Search for npm packages with npms.io
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
 
