@@ -1,6 +1,6 @@
 {
   "name": "alfred-font-awesome",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Alfred workflow to search for font-awesome icons",
   "license": "MIT",
   "repository": "SamVerschueren/alfred-font-awesome",
